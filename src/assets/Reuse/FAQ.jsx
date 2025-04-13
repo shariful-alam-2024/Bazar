@@ -40,7 +40,7 @@ const FAQ = () => {
   )
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
+    <div className="max-w-4xl mx-auto text-black dark:text-white px-4 py-12">
       <h2 className="text-3xl font-bold mb-8 text-center">
         প্রশ্ন ও উত্তর (FAQ)
       </h2>

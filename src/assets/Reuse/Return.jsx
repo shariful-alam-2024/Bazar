@@ -2,7 +2,7 @@ import React from 'react';
 
 const Return = () => {
      return (
-       <div className="max-w-4xl mx-auto px-4 py-10 pt-24 text-gray-800">
+       <div className="max-w-4xl mx-auto px-4 py-10  pt-24 text-black dark:text-white">
          <h1 className="text-3xl font-bold mb-6 text-center">রিটার্ন নীতি</h1>
 
          <section className="mb-6">
