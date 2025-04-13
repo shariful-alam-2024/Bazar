@@ -55,12 +55,7 @@ function App() {
               darkMode={darkMode}
               setDarkMode={setDarkMode}
             ></Route>
-            <Route
-              path="/ContactPage"
-              element={<ContactPage />}
-              darkMode={darkMode}
-              setDarkMode={setDarkMode}
-            ></Route>
+            <Route path="/ContactPage"element={<ContactPage />}></Route>
             <Route path="/FAQ" element={<FAQ />}></Route>
             <Route path="/Return" element={<Return />}></Route>
             <Route path="/Terms" element={<Terms />}></Route>
