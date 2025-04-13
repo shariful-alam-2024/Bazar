@@ -8,11 +8,11 @@ import Document from './assets/pages/Document'
 import Home from './assets/pages/Home'
 import Location from './assets/pages/Location'
 import Library from './assets/pages/Library'
-// import Search from './assets/Form/Search'
+
 import Navbar from './assets/NavbarandFooter/Navbar'
 import Footer from './assets/NavbarandFooter/Footer'
 import Shop from './assets/Reuse/Shop'
-// import MyData from './assets/Info/MyData'
+
 import ContactPage from './assets/Reuse/ContactPage'
 import FAQ from './assets/Reuse/FAQ'
 import Return from './assets/Reuse/Return';

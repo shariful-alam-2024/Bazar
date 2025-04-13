@@ -6,10 +6,8 @@ import { CiDark, CiLight } from 'react-icons/ci'
 import { TiKeyOutline } from 'react-icons/ti'
 import { RxCross2 } from 'react-icons/rx'
 import NotificationIcon from './NotificationIcon'
-import { TiShoppingCart } from 'react-icons/ti'
-import { Link } from 'react-router-dom'
-// import { RiArrowDropDownLine } from 'react-icons/ri'
-import SignUp from '../Form/signup';
+
+import SignUp from '../Form/SignUp';
 import Login from '../Form/Login'
 const Navbar = ({ setDarkMode, darkMode }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
