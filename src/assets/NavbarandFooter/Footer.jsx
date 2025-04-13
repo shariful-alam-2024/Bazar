@@ -10,7 +10,7 @@ const Footer = () => {
             {' '}
             <h2 className="text-2xl font-bold mb-2">bazaar.com</h2>
           </a>
-          <p className="text-sm text-gray-400">
+          <p className="text-sm ">
             Trusted online marketplace where you can easily buy your favorite
             products.
           </p>
@@ -19,7 +19,7 @@ const Footer = () => {
         {/* Quick Links */}
         <div>
           <h3 className="text-lg font-semibold mb-4">quick Link</h3>
-          <ul className="space-y-2 text-sm text-gray-400">
+          <ul className="space-y-2 text-sm ">
             <li>
               <a href="/" className="hover:text-white">
                 Home
@@ -51,7 +51,7 @@ const Footer = () => {
         {/* Customer Service */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Customer Service</h3>
-          <ul className="space-y-2 text-sm text-gray-400">
+          <ul className="space-y-2 text-sm ">
             <li>
               <a href="/ContactPage" className="hover:text-white">
                 Contact
@@ -78,14 +78,14 @@ const Footer = () => {
         {/* Newsletter */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Newsletter</h3>
-          <p className="text-sm text-gray-400 mb-2">
+          <p className="text-sm  mb-2">
             Subscribe to receive new updates.
           </p>
           <form className="flex">
             <input
               type="email"
               placeholder="Enter Your Email"
-              className="px-2 py-1 w-full rounded-l bg-gray-800 text-white placeholder-gray-500 focus:outline-none"
+              className="px-2 py-1 w-full border-cyan-700 border-2 rounded-l bg-gray-950 text-white placeholder-white focus:outline-none"
             />
             <button
               type="submit"
@@ -98,7 +98,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="border-t border-gray-700 mt-10 py-4 text-center text-sm text-gray-500">
+      <div className="border-t border-gray-700 mt-10 py-4 text-center text-sm ">
         © 2025 bazaar.com — All rights reserved.
       </div>
     </footer>

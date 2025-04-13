@@ -21,8 +21,8 @@ const dummyProducts = [
 ]
 const Shop = () => {
      return (
-       <div className="pt-20 px-4 min-h-screen  dark:bg-gray-900">
-         <h1 className="text-3xl font-bold text-center mb-8  dark:text-white">
+       <div className="pt-20 px-4 min-h-screen  ">
+         <h1 className="text-3xl font-bold text-center mb-8  ">
            Our Collection
          </h1>
          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -36,7 +36,7 @@ const Shop = () => {
                  alt={product.name}
                  className="w-full h-52 object-cover rounded-lg"
                />
-               <h2 className="text-xl font-semibold mt-4  dark:text-white">
+               <h2 className="text-xl font-semibold mt-4  ">
                  {product.name}
                </h2>
                <p className="text-lg  dark:text-gray-300">
