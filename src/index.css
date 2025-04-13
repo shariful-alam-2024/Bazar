@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+
+.logo{
+     width: 5rem;
+     animation: rotateLogo 3s linear infinite;
+}
+@keyframes rotateLogo {
+     from{
+          transform: rotate(0deg);
+     }
+     to{
+          transform: rotate(360deg);
+     }
+}
+
+
+
+     
