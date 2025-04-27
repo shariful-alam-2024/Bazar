@@ -18,8 +18,8 @@ export const navItems = [
           to: '/Document',
      },
      {
-          label: 'Library',
-          to:'/Library'
+          label: 'Education',
+          to:'/Education'
      }
 
 ]
