@@ -36,13 +36,9 @@ const Shop = () => {
                  alt={product.name}
                  className="w-full h-52 object-cover rounded-lg"
                />
-               <h2 className="text-xl font-semibold mt-4  ">
-                 {product.name}
-               </h2>
-               <p className="text-lg  dark:text-gray-300">
-                 ${product.price}
-               </p>
-               <button className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+               <h2 className="text-xl font-semibold mt-4  ">{product.name}</h2>
+               <p className="text-lg  dark:text-gray-300">${product.price}</p>
+               <button className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:scale-105 transition-transform duration-300">
                  Add to Cart
                </button>
              </div>
