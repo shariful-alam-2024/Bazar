@@ -6,9 +6,9 @@ import Error from './assets/pages/Error'
 import Blog from './assets/pages/Blog'
 import Document from './assets/pages/Document'
 import Home from './assets/pages/Home'
-import Location from './assets/pages/Location'
-
-
+import Cart from './assets/pages/Cart'
+import BkashPaymentPage from './assets/Reuse/BkashPaymentPage'
+import CheckoutPage from './assets/Reuse/CheckoutPage'
 import Navbar from './assets/NavbarandFooter/Navbar'
 import Footer from './assets/NavbarandFooter/Footer'
 import Shop from './assets/Reuse/Shop'
@@ -58,7 +58,13 @@ function App() {
             <Route path="/Blog" element={<Blog />}></Route>
             <Route path="/Education" element={<Education />}></Route>
             <Route path="/Document" element={<Document />}></Route>
-            <Route path="/Location" element={<Location />}></Route>
+            <Route path="/Cart" element={<Cart />}></Route>
+            <Route path="/CheckoutPage" element={<CheckoutPage />}></Route>
+            <Route
+              path="/BkashPaymentPage"
+              element={<BkashPaymentPage />}
+            ></Route>
+
             <Route path="*" element={<Error />}></Route>
           </Routes>
           <Footer />

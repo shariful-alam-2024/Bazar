@@ -10,8 +10,8 @@ export const navItems = [
      },
     
      {
-          label: 'Location',
-          to: '/Location',
+          label: 'Cart',
+          to: '/Cart',
      },
      {
           label: 'Document',
