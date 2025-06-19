@@ -14,8 +14,8 @@ const Login = () => {
   return (
     <>
       {!isClose && (
-        <div className="flex items-center justify-center min-h-screen">
-          <div className="bg-black text-white opacity-100 p-6 rounded-2xl shadow-lg w-96">
+        <div  style={{backgroundImage:`url('/img3.png')`}}  className="flex items-center bg-no-repeat justify-center min-h-screen">
+          <div className=" text-white opacity-100 p-6 rounded-2xl shadow-lg w-96">
             <h2 className="text-2xl font-bold text-center pb-1 border-b-2">
               Login Form
             </h2>
@@ -28,7 +28,7 @@ const Login = () => {
                 <input
                   type="email"
                   placeholder="Enter your email address"
-                  className="mt-1 p-2 w-full border rounded-lg focus:ring focus:ring-blue-300"
+                  className="mt-1 p-2 w-full border rounded-lg bg-black text-white focus:ring focus:ring-blue-300"
                   required
                 />
               </div>
@@ -42,7 +42,7 @@ const Login = () => {
                     required
                     type={showPassword ? 'text' : 'password'}
                     placeholder="Enter your password"
-                    className="mt-1 p-2 w-full border rounded-lg focus:ring focus:ring-blue-300"
+                    className="mt-1 p-2 w-full border  bg-black text-white rounded-lg focus:ring focus:ring-blue-300"
                   />
                   <button
                     type="button"
@@ -67,7 +67,7 @@ const Login = () => {
                     required
                     placeholder="Enter your confirm password"
                     type={showConfirmPassword ? 'text' : 'password'}
-                    className="mt-1 p-2 w-full border rounded-lg focus:ring focus:ring-blue-300"
+                    className="mt-1 p-2 w-full border  bg-black text-white rounded-lg focus:ring focus:ring-blue-300"
                   />
                   <button
                     type="button"
